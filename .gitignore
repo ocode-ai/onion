@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Development
+.claude/
+
+# User project files (not part of the plugin)
+.onion/.env

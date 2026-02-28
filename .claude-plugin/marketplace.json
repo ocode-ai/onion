@@ -1,0 +1,18 @@
+{
+  "name": "onion-ai",
+  "owner": {
+    "name": "Onion AI",
+    "url": "https://github.com/onion-ai"
+  },
+  "plugins": [
+    {
+      "name": "onion",
+      "source": ".",
+      "description": "Turn Claude Code into a full development workflow engine with 88 commands, 45 agents, and structured workflows — from idea to shipped feature.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Onion AI"
+      }
+    }
+  ]
+}

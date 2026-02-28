@@ -1,0 +1,26 @@
+{
+  "name": "onion",
+  "version": "1.0.0",
+  "description": "Turn Claude Code into a full development workflow engine with 88 commands, 45 agents, and structured workflows — from idea to shipped feature.",
+  "author": {
+    "name": "Onion AI",
+    "email": "david@ocode.ai",
+    "url": "https://github.com/onion-ai"
+  },
+  "homepage": "https://github.com/onion-ai/onion",
+  "repository": "https://github.com/onion-ai/onion",
+  "license": "MIT",
+  "keywords": [
+    "workflow",
+    "development",
+    "product-management",
+    "gitflow",
+    "agents",
+    "task-management",
+    "engineering",
+    "documentation"
+  ],
+  "commands": ["./commands/"],
+  "agents": "./agents/",
+  "skills": "./skills/"
+}
