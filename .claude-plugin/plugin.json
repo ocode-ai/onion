@@ -19,8 +19,5 @@
     "task-management",
     "engineering",
     "documentation"
-  ],
-  "commands": ["./commands/"],
-  "agents": "./agents/",
-  "skills": "./skills/"
+  ]
 }
