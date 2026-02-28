@@ -99,7 +99,7 @@ list_dir ${CLAUDE_PLUGIN_ROOT}/commands/compliance/
 list_dir ${CLAUDE_PLUGIN_ROOT}/commands/docs/
 list_dir ${CLAUDE_PLUGIN_ROOT}/commands/git/
 list_dir ${CLAUDE_PLUGIN_ROOT}/commands/admin/
-list_dir ${CLAUDE_PLUGIN_ROOT}/commands/common/
+list_dir ${CLAUDE_PLUGIN_ROOT}/reference/common/
 ```
 
 **Identificar:**
@@ -1213,7 +1213,7 @@ autonomy: alta
 **Documentação de Ferramentas:** `docs/tools.md` (150+ ferramentas)
 **Agentes Existentes:** `${CLAUDE_PLUGIN_ROOT}/agents/` (23+ agentes)
 **Comandos Existentes:** `${CLAUDE_PLUGIN_ROOT}/commands/` (9+ categorias)
-**Template de Compliance:** `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_*.md`
+**Template de Compliance:** `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_*.md`
 
 **Padrão de Nome:** `[categoria]-[especialidade]-[tipo]`
 **Extensão:** `.md`

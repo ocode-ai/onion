@@ -569,7 +569,7 @@ ${recommendations}
 
 ### Formatting Patterns
 
-- **ClickUp:** `${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/clickup-patterns.md`
+- **ClickUp:** `${CLAUDE_PLUGIN_ROOT}/reference/common/prompts/clickup-patterns.md`
 - **Formatting:** `${CLAUDE_PLUGIN_ROOT}/reference/docs/clickup/clickup-formatting.md`
 
 ## ⚠️ Notes

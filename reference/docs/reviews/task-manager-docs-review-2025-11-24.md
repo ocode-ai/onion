@@ -51,7 +51,7 @@ Múltiplos documentos referenciavam `${CLAUDE_PLUGIN_ROOT}/reference/utils/click
 #### ✅ **Formatação ClickUp**
 
 - `${CLAUDE_PLUGIN_ROOT}/reference/docs/clickup/clickup-formatting.md` ✅ Bem formatado
-- `${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/clickup-patterns.md` ✅ Bem formatado
+- `${CLAUDE_PLUGIN_ROOT}/reference/common/prompts/clickup-patterns.md` ✅ Bem formatado
 
 #### ✅ **Comando Principal**
 

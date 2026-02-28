@@ -188,8 +188,8 @@ workspace_id: "90131664218"  // Workspace padrão
 ## 📚 Referências
 
 - Knowledge Bases: `docs/knowbase/`
-- Templates: `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/`
-- Prompts: `${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/`
+- Templates: `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/`
+- Prompts: `${CLAUDE_PLUGIN_ROOT}/reference/common/prompts/`
 
 ---
 

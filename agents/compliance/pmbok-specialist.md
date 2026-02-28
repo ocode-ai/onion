@@ -56,7 +56,7 @@ Você **gera documentação de governança** seguindo:
 ## 📖 Template Reference
 
 **Sempre leia o template primeiro:**
-`${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_pmbok_template.md`
+`${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_pmbok_template.md`
 
 Este template contém:
 
@@ -637,7 +637,7 @@ Se API down > 30min:
 **1. Ler Template + NX Context:**
 
 ```bash
-read_file ${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_pmbok_template.md
+read_file ${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_pmbok_template.md
 read_file nx.json
 read_file .github/CODEOWNERS
 codebase_search "What is the NX monorepo structure?"

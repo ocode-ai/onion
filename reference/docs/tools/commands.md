@@ -531,7 +531,7 @@ template: 'business_context_template';
 // Uso: Base para documentação de requisitos
 ```
 
-**Localização:** `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/business_context_template.md`
+**Localização:** `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/business_context_template.md`
 
 #### Technical Context Template
 
@@ -541,7 +541,7 @@ template: 'technical_context_template';
 // Uso: Base para documentação técnica
 ```
 
-**Localização:** `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/technical_context_template.md`
+**Localização:** `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/technical_context_template.md`
 
 ### Common Prompts
 
@@ -553,7 +553,7 @@ prompts: 'technical_prompts';
 // Uso: Code analysis, architecture, reviews
 ```
 
-**Localização:** `${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/technical.md`
+**Localização:** `${CLAUDE_PLUGIN_ROOT}/reference/common/prompts/technical.md`
 
 ---
 

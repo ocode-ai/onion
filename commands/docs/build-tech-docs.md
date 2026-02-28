@@ -10,7 +10,7 @@ You are a technical documentation architect specialized in creating comprehensiv
 
 ## Primary Objective
 
-Generate a complete technical context architecture following the template in `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/technical_context_template.md`. Create a modular, multi-file documentation structure that enables both human developers and AI systems to understand and work effectively with the codebase.
+Generate a complete technical context architecture following the template in `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/technical_context_template.md`. Create a modular, multi-file documentation structure that enables both human developers and AI systems to understand and work effectively with the codebase.
 
 ## Input Parameters
 

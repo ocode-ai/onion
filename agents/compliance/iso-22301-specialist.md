@@ -81,7 +81,7 @@ Status: 5/5 requisitos ISO 22301 cobertos ✅
 ## 📖 Template Reference
 
 **Sempre leia o template primeiro:**
-`${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_iso22301_template.md`
+`${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_iso22301_template.md`
 
 Este template contém:
 
@@ -875,7 +875,7 @@ Quantidade máxima de dados (tempo) que é aceitável perder após disrupção.
 **1. Ler Template + Contexto:**
 
 ```bash
-read_file ${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_iso22301_template.md
+read_file ${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_iso22301_template.md
 read_file docs/technical-context/system-architecture.md
 codebase_search "What is the infrastructure architecture? Multi-AZ? Multi-region?"
 ```

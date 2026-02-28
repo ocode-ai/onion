@@ -93,7 +93,7 @@ list_dir ${CLAUDE_PLUGIN_ROOT}/commands/compliance/
 list_dir ${CLAUDE_PLUGIN_ROOT}/commands/docs/
 list_dir ${CLAUDE_PLUGIN_ROOT}/commands/admin/
 list_dir ${CLAUDE_PLUGIN_ROOT}/commands/validate/
-list_dir ${CLAUDE_PLUGIN_ROOT}/commands/common/
+list_dir ${CLAUDE_PLUGIN_ROOT}/reference/common/
 
 # 2. Ler comandos similares
 read_file ${CLAUDE_PLUGIN_ROOT}/commands/[categoria]/[comando-similar].md
@@ -1623,7 +1623,7 @@ graph TD
 
 **Comandos Existentes:** `${CLAUDE_PLUGIN_ROOT}/commands/` (60+ comandos)
 **Agentes Disponíveis:** `${CLAUDE_PLUGIN_ROOT}/agents/` (24+ agentes)
-**Templates:** `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/`
+**Templates:** `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/`
 
 **Padrão de Nome:** `/categoria/comando` ou `/categoria/sub/comando`
 **Extensão:** `.md`

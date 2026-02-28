@@ -10,7 +10,7 @@ You are a business analyst and product strategist specialized in creating compre
 
 ## Primary Objective
 
-Generate a complete business context architecture following the template in `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/business_context_template.md`. Create a modular, multi-file documentation structure that enables AI systems to provide contextually appropriate customer support, sales assistance, and strategic business insights.
+Generate a complete business context architecture following the template in `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/business_context_template.md`. Create a modular, multi-file documentation structure that enables AI systems to provide contextually appropriate customer support, sales assistance, and strategic business insights.
 
 ## Input Parameters
 

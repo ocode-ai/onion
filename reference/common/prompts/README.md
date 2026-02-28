@@ -57,14 +57,14 @@ Este diretório contém prompts abrangentes projetados para guiar o Cursor na ge
 
 ```bash
 # Para um projeto Python
-cursor --prompt ${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/technical.md \
+cursor --prompt ${CLAUDE_PLUGIN_ROOT}/reference/common/prompts/technical.md \
   --project-path ./my-python-project \
   --output-path ./my-python-project/docs/technical \
   --technology-stack "Python, FastAPI, PostgreSQL" \
   --focus-areas "performance,security"
 
 # Para uma aplicação React
-cursor --prompt ${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/technical.md \
+cursor --prompt ${CLAUDE_PLUGIN_ROOT}/reference/common/prompts/technical.md \
   --project-path ./my-react-app \
   --output-path ./docs/technical \
   --existing-docs ./current-docs \
@@ -75,7 +75,7 @@ cursor --prompt ${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/technical.md \
 
 ```bash
 # Para um produto SaaS
-cursor --prompt ${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/business.md \
+cursor --prompt ${CLAUDE_PLUGIN_ROOT}/reference/common/prompts/business.md \
   --project-path ./my-saas-product \
   --output-path ./docs/business \
   --business-model "B2B SaaS" \
@@ -83,7 +83,7 @@ cursor --prompt ${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/business.md \
   --competitive-analysis "Competitor1,Competitor2"
 
 # For an open source project
-cursor --prompt ${CLAUDE_PLUGIN_ROOT}/commands/common/prompts/business.md \
+cursor --prompt ${CLAUDE_PLUGIN_ROOT}/reference/common/prompts/business.md \
   --project-path ./my-oss-project \
   --output-path ./specs/business \
   --business-model "Open Source" \
@@ -121,7 +121,7 @@ Ambos os prompts seguem uma abordagem sistemática:
 
 ### 🔄 **Integração com Templates**
 
-- Referencia os templates abrangentes em `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/`
+- Referencia os templates abrangentes em `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/`
 - Garante consistência entre diferentes projetos
 - Segue melhores práticas estabelecidas
 
@@ -173,8 +173,8 @@ Os prompts são projetados para serem flexíveis e podem ser adaptados para:
 
 Estes prompts funcionam em conjunto com:
 
-- `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/technical_context_template.md`
-- `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/business_context_template.md`
+- `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/technical_context_template.md`
+- `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/business_context_template.md`
 
 Os templates fornecem a estrutura e frameworks, enquanto estes prompts fornecem a metodologia de análise e estratégia de execução.
 

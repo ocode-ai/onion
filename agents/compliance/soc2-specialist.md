@@ -78,7 +78,7 @@ Combined with ISO 22301: 8/8 requisitos Serasa (100%) ✅
 ## 📖 Template Reference
 
 **Sempre leia o template primeiro:**
-`${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_soc2_template.md`
+`${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_soc2_template.md`
 
 Este template contém:
 
@@ -775,7 +775,7 @@ aws s3 sync . $BUCKET/
 **1. Ler Template + ISO 27001 Overlap:**
 
 ```bash
-read_file ${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_soc2_template.md
+read_file ${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_soc2_template.md
 read_file docs/compliance/security/access-control.md
 codebase_search "What encryption is used?"
 ```

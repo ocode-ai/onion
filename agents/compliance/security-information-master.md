@@ -350,7 +350,7 @@ Antes de delegar, consolidar contexto do projeto:
 
 **Idioma:** PT-BR (preservando termos: Risk Assessment, Access Control, ISMS, BIA, SoA)
 
-**Template:** Leia e siga `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_iso27001_template.md`
+**Template:** Leia e siga `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_iso27001_template.md`
 
 Confirme quando concluir para eu consolidar no index.md.
 ```
@@ -382,7 +382,7 @@ Confirme quando concluir para eu consolidar no index.md.
 
 **Idioma:** PT-BR (preservando: BCP, DRP, RTO, RPO, BIA, MTPD)
 
-**Template:** Leia e siga `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_iso22301_template.md`
+**Template:** Leia e siga `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_iso22301_template.md`
 
 🚨 **SERASA MAPPING**: Este framework mapeia 5 de 8 requisitos da Serasa Experian. Garanta que:
 
@@ -422,7 +422,7 @@ Confirme quando concluir para eu consolidar no index.md.
 
 **Idioma:** PT-BR (preservando: Project Charter, RFC, Change Management, Quality Management, etc.)
 
-**Template:** Leia e siga `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_pmbok_template.md`
+**Template:** Leia e siga `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_pmbok_template.md`
 
 **Integração Crítica:**
 
@@ -459,7 +459,7 @@ Confirme quando concluir para eu consolidar no index.md.
 
 **Idioma:** PT-BR (preservando: Trust Services Criteria, Type II, Control Environment, TSC, etc.)
 
-**Template:** Leia e siga `${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_soc2_template.md`
+**Template:** Leia e siga `${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_soc2_template.md`
 
 🚨 **SERASA MAPPING**: Este framework mapeia 3 de 8 requisitos da Serasa Experian. Garanta que:
 
@@ -730,7 +730,7 @@ Documentos Gerados:
 
 ```markdown
 ❌ ERRO: Template não encontrado
-Template esperado: ${CLAUDE_PLUGIN_ROOT}/commands/common/templates/compliance_iso27001_template.md
+Template esperado: ${CLAUDE_PLUGIN_ROOT}/reference/common/templates/compliance_iso27001_template.md
 Ação: Verificar se Phase 1 foi concluída. Templates devem existir antes de usar este agente.
 ```
 
