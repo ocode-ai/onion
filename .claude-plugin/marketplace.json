@@ -12,7 +12,6 @@
         "repo": "ocode-ai/onion"
       },
       "description": "Turn Claude Code into a full development workflow engine with 88 commands, 45 agents, and structured workflows — from idea to shipped feature.",
-      "version": "1.0.0",
       "author": {
         "name": "Onion AI"
       }

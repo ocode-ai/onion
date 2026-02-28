@@ -1,6 +1,6 @@
 {
   "name": "onion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn Claude Code into a full development workflow engine with 88 commands, 45 agents, and structured workflows — from idea to shipped feature.",
   "author": {
     "name": "Onion AI",
