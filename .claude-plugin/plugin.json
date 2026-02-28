@@ -5,10 +5,10 @@
   "author": {
     "name": "Onion AI",
     "email": "david@ocode.ai",
-    "url": "https://github.com/onion-ai"
+    "url": "https://github.com/ocode-ai"
   },
-  "homepage": "https://github.com/onion-ai/onion",
-  "repository": "https://github.com/onion-ai/onion",
+  "homepage": "https://github.com/ocode-ai/onion",
+  "repository": "https://github.com/ocode-ai/onion",
   "license": "MIT",
   "keywords": [
     "workflow",

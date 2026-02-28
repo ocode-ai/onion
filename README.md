@@ -67,8 +67,11 @@ Six commands. Idea to PR.
 
 ### 1. Install
 
+Inside Claude Code, run:
+
 ```
-/plugin install onion
+/plugin marketplace add ocode-ai/onion
+/plugin install onion@ocode-ai
 ```
 
 Or for development/testing:
